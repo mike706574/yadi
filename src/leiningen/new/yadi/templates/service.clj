@@ -1,4 +1,4 @@
-(ns {{ns-name}} .service
+(ns {{ns-name}}.service
   (:require [com.stuartsierra.component :as component]
             [taoensso.timbre :as log]
             [yada.yada :as yada]

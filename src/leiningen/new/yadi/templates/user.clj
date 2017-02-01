@@ -13,7 +13,7 @@
    [clojure.tools.namespace.repl :refer [refresh refresh-all]]
    [clojure.data.json :as json]
    [com.stuartsierra.component :as component]
-   [{{ns-name}} .system :as system]
+   [{{ns-name}}.system :as system]
    [clj-http.client :as http]))
 
 (def config {:id "{{ns-name}}" :port 8080})
